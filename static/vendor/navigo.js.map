@@ -1,0 +1,1104 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-d7137690e30123bade38abb082ac79f36cc7a105ff92e602405f53b725465cab.css" integrity="sha256-1xN2kOMBI7reOKuwgqx582zHoQX/kuYCQF9TtyVGXKs=" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-ca05371259dcac7e46d20df340b58a39d7c675dff23c67eeef701a9532c23763.css" integrity="sha256-ygU3ElncrH5G0g3zQLWKOdfGdd/yPGfu73AalTLCN2M=" media="all" rel="stylesheet" />
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>navigo/navigo.js.map at master · krasimir/navigo</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars0.githubusercontent.com/u/528677?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="krasimir/navigo" property="og:title" /><meta content="https://github.com/krasimir/navigo" property="og:url" /><meta content="navigo - A simple vanilla JavaScript router with a fallback for older browsers" property="og:description" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTg5NjE5ODkzOmNkOTdkMTExMTdiZmRlMjAwZDYzNTFhY2Y5NTNlOGU1MzhjYzYzYjhjZTgzYTZmMjA5YTgwZjEzZGFhMDYxMWI=--de7e6ceffb2e8bd35582e995d1282c518264a84d">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="request-id" content="F352:4258:47E97:7659E:59E7C98F" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="F352:4258:47E97:7659E:59E7C98F" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="11406290" name="octolytics-actor-id" /><meta content="erlong15" name="octolytics-actor-login" /><meta content="f594844b86cd30a2f5f582766408f71f1e91bd6b8ad74693f07fc09089859389" name="octolytics-actor-hash" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="erlong15">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZTdhMGJkZjQwOGJkYjcwMmYwYmU3MDE2ODFhOTRjNzZmYjliYTM5NDkyNWQyODdkMDUzYWM4OTQ4NTI5ZTllOXx7InJlbW90ZV9hZGRyZXNzIjoiOTEuMjIwLjE2Ni4yMTAiLCJyZXF1ZXN0X2lkIjoiRjM1Mjo0MjU4OjQ3RTk3Ojc2NTlFOjU5RTdDOThGIiwidGltZXN0YW1wIjoxNTA4MzYyNjQwLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+    <meta name="enabled-features" content="REMOTE_NEXT,UNIVERSE_BANNER">
+
+  <meta name="html-safe-nonce" content="32d261daea2ef91adc0e8ef6c0fd40a45207d852">
+
+  <meta http-equiv="x-pjax-version" content="3ad95ecc7a8a96c4eb6a06993a0a0cbd">
+  
+
+      <link href="https://github.com/krasimir/navigo/commits/master.atom" rel="alternate" title="Recent Commits to navigo:master" type="application/atom+xml">
+
+  <meta name="description" content="navigo - A simple vanilla JavaScript router with a fallback for older browsers">
+  <meta name="go-import" content="github.com/krasimir/navigo git https://github.com/krasimir/navigo.git">
+
+  <meta content="528677" name="octolytics-dimension-user_id" /><meta content="krasimir" name="octolytics-dimension-user_login" /><meta content="44522216" name="octolytics-dimension-repository_id" /><meta content="krasimir/navigo" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="44522216" name="octolytics-dimension-repository_network_root_id" /><meta content="krasimir/navigo" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
+
+
+    <link rel="canonical" href="https://github.com/krasimir/navigo/blob/master/lib/navigo.js.map" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+  </head>
+
+  <body class="logged-in env-production page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="bg-black text-white p-3 show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<header class="Header  f5" role="banner">
+  <div class="d-flex px-3 flex-justify-between container-lg">
+    <div class="d-flex flex-justify-between">
+      <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+
+
+    </div>
+
+    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+      <div class="d-flex">
+            <div class="">
+              <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/krasimir/navigo/search" class="js-site-search-form" data-scoped-search-url="/krasimir/navigo/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="/krasimir/navigo/blob/master/lib/navigo.js.map" class="header-search-scope no-underline">This repository</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+            </div>
+
+          <ul class="d-flex pl-2 flex-items-center text-bold list-style-none" role="navigation">
+            <li>
+              <a href="/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+                Pull requests
+</a>            </li>
+            <li>
+              <a href="/issues" aria-label="Issues you created" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+                Issues
+</a>            </li>
+                <li>
+                  <a href="/marketplace" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-selected-links=" /marketplace">
+                    Marketplace
+</a>                </li>
+            <li>
+              <a href="/explore" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore">
+                Explore
+</a>            </li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+        
+<ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
+  <li class="dropdown js-menu-container js-header-notifications">
+    <span class="d-inline-block  px-2">
+      
+      <a href="/notifications" aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-channel="notification-changed:11406290" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
+          <span class="mail-status "></span>
+          <svg aria-hidden="true" class="octicon octicon-bell" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"/></svg>
+</a>
+    </span>
+  </li>
+
+  <li class="dropdown js-menu-container">
+    <details class="dropdown-details js-dropdown-details d-flex px-2 flex-items-center">
+      <summary class="HeaderNavlink"
+         aria-label="Create new…"
+         data-ga-click="Header, create new, icon:add">
+        <svg aria-hidden="true" class="octicon octicon-plus float-left mr-1 mt-1" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"/></svg>
+        <span class="dropdown-caret mt-1"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="krasimir/navigo">This repository</span>
+  </div>
+    <a class="dropdown-item" href="/krasimir/navigo/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </details>
+  </li>
+
+  <li class="dropdown js-menu-container">
+
+    <details class="dropdown-details js-dropdown-details d-flex pl-2 flex-items-center">
+      <summary class="HeaderNavlink name mt-1"
+        aria-label="View profile and more"
+        data-ga-click="Header, show menu, icon:avatar">
+        <img alt="@erlong15" class="avatar float-left mr-1" src="https://avatars3.githubusercontent.com/u/11406290?s=40&amp;v=4" height="20" width="20">
+        <span class="dropdown-caret"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        <li class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">erlong15</strong>
+        </li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="/erlong15" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a></li>
+        <li><a class="dropdown-item" href="/erlong15?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a></li>
+          <li><a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your Gists</a></li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a></li>
+
+        <li><a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a></li>
+
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="4pOIBra9VCLEj5z/2b8r61kMXUVoEB4JKrSW6YABVQ8LR/RFUEGFYnior+zrLlbTM+cUXF2wpoAHIaih/sgDLA==" /></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+        </form></li>
+      </ul>
+    </details>
+  </li>
+</ul>
+
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vXCPnqZujep30AjAR4ajaMV2Yn3lWc806PJFhgB907BUpPPdQJJcqsv3O9N1F95Qr50rZND5d73FZ3vOfrSFkw==" /></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </div>
+</header>
+
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container>
+      
+
+
+
+
+
+    <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav ">
+      <div class="repohead-details-container clearfix container ">
+
+        <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="08dRwWhw/wkU37SeTCwoevT2A/gLvlCh0qvH7EGTntykZIMYQ5ubYBeuR9qgh6Gus5W/8xrBORzqoAE8iSrH4g==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="44522216" />
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="/krasimir/navigo/subscription"
+            class="btn btn-sm btn-with-count select-menu-button js-menu-target"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-label="Toggle repository notifications menu"
+            data-ga-click="Repository, click Watch settings, action:blob#show">
+            <span class="js-select-button">
+                <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                Watch
+            </span>
+          </a>
+            <a class="social-count js-social-count"
+              href="/krasimir/navigo/watchers"
+              aria-label="36 users are watching this repository">
+              36
+            </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                        Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_ignore" name="do" type="radio" value="ignore" />
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
+                        Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/krasimir/navigo/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="4UQ8puxXtm4wH+/Hxfl55qu6+LCc0MpyNSdO0M2Zf9fdnjuS1vAH1uMM8Afj2Vm0b0lkDX74rL9epDNWLwEnUg==" /></div>
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar krasimir/navigo"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/krasimir/navigo/stargazers"
+           aria-label="1050 users starred this repository">
+          1,050
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/krasimir/navigo/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="qgUTDCt5aDU/rEjk/F1fTTXwHA4VH424ym3CD8yqqywBRCBWO1Lk7Ujgd4LXeUudXdJ85XNeESmjA2tYhpouVA==" /></div>
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star krasimir/navigo"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/krasimir/navigo/stargazers"
+           aria-label="1050 users starred this repository">
+          1,050
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/krasimir/navigo/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="mmsU2o4Ou9rwK/c/ODtEjsSvJqy+vlo/eT9f/CkwAG6hwVT17DWscxWhGGYF2As1jVMioT3/iTUh4gjxXBEufA==" /></div>
+            <button
+                type="submit"
+                class="btn btn-sm btn-with-count"
+                data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
+                title="Fork your own copy of krasimir/navigo to your account"
+                aria-label="Fork your own copy of krasimir/navigo to your account">
+              <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+              Fork
+            </button>
+</form>
+    <a href="/krasimir/navigo/network" class="social-count"
+       aria-label="102 users forked this repository">
+      102
+    </a>
+  </li>
+</ul>
+
+        <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a href="/krasimir" class="url fn" rel="author">krasimir</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="/krasimir/navigo" data-pjax="#js-repo-pjax-container">navigo</a></strong>
+
+</h1>
+
+      </div>
+      
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/krasimir/navigo" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /krasimir/navigo" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="/krasimir/navigo/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /krasimir/navigo/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">8</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/krasimir/navigo/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /krasimir/navigo/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">2</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="/krasimir/navigo/projects" class="js-selected-navigation-item reponav-item" data-hotkey="g b" data-selected-links="repo_projects new_repo_project repo_project /krasimir/navigo/projects">
+      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+    <a href="/krasimir/navigo/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /krasimir/navigo/wiki">
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a href="/krasimir/navigo/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /krasimir/navigo/pulse">
+    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+    </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+  <a href="/krasimir/navigo/blob/702a72051671f3de1b3031d2debd3e2cf1134d3e/lib/navigo.js.map" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <!-- blob contrib key: blob_contributors:v21:0628329b6922888d241f8e3603918d71 -->
+
+  <div class="file-navigation js-zeroclipboard-container">
+    
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/krasimir/navigo/blob/master-97/lib/navigo.js.map"
+               data-name="master-97"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master-97
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/krasimir/navigo/blob/master/lib/navigo.js.map"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/krasimir/navigo/blob/patch-3/lib/navigo.js.map"
+               data-name="patch-3"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                patch-3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/krasimir/navigo/blob/pr/110/lib/navigo.js.map"
+               data-name="pr/110"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                pr/110
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/krasimir/navigo/blob/travis/lib/navigo.js.map"
+               data-name="travis"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                travis
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/5.3.2/lib/navigo.js.map"
+              data-name="5.3.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="5.3.2">
+                5.3.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/5.3.1/lib/navigo.js.map"
+              data-name="5.3.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="5.3.1">
+                5.3.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/5.3.0/lib/navigo.js.map"
+              data-name="5.3.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="5.3.0">
+                5.3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/5.2.0/lib/navigo.js.map"
+              data-name="5.2.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="5.2.0">
+                5.2.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.7.2/lib/navigo.js.map"
+              data-name="4.7.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.7.2">
+                4.7.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.7.1/lib/navigo.js.map"
+              data-name="4.7.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.7.1">
+                4.7.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.7.0/lib/navigo.js.map"
+              data-name="4.7.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.7.0">
+                4.7.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.6.2/lib/navigo.js.map"
+              data-name="4.6.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.6.2">
+                4.6.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.6.1/lib/navigo.js.map"
+              data-name="4.6.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.6.1">
+                4.6.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.6.0/lib/navigo.js.map"
+              data-name="4.6.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.6.0">
+                4.6.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.5.2/lib/navigo.js.map"
+              data-name="4.5.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.5.2">
+                4.5.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.5.1/lib/navigo.js.map"
+              data-name="4.5.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.5.1">
+                4.5.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.5.0/lib/navigo.js.map"
+              data-name="4.5.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.5.0">
+                4.5.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.4.0/lib/navigo.js.map"
+              data-name="4.4.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.4.0">
+                4.4.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.3.7/lib/navigo.js.map"
+              data-name="4.3.7"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.3.7">
+                4.3.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.3.6/lib/navigo.js.map"
+              data-name="4.3.6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.3.6">
+                4.3.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.3.4/lib/navigo.js.map"
+              data-name="4.3.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.3.4">
+                4.3.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.3.3/lib/navigo.js.map"
+              data-name="4.3.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.3.3">
+                4.3.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.3.1/lib/navigo.js.map"
+              data-name="4.3.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.3.1">
+                4.3.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.3.0/lib/navigo.js.map"
+              data-name="4.3.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.3.0">
+                4.3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.2.0/lib/navigo.js.map"
+              data-name="4.2.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.2.0">
+                4.2.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.0.1/lib/navigo.js.map"
+              data-name="4.0.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.0.1">
+                4.0.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/4.0.0/lib/navigo.js.map"
+              data-name="4.0.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="4.0.0">
+                4.0.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/3.5.1/lib/navigo.js.map"
+              data-name="3.5.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="3.5.1">
+                3.5.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/3.5.0/lib/navigo.js.map"
+              data-name="3.5.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="3.5.0">
+                3.5.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/3.0.0/lib/navigo.js.map"
+              data-name="3.0.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="3.0.0">
+                3.0.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/2.3.2/lib/navigo.js.map"
+              data-name="2.3.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="2.3.2">
+                2.3.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/2.3.1/lib/navigo.js.map"
+              data-name="2.3.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="2.3.1">
+                2.3.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/2.3.0/lib/navigo.js.map"
+              data-name="2.3.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="2.3.0">
+                2.3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/2.2.0/lib/navigo.js.map"
+              data-name="2.2.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="2.2.0">
+                2.2.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/2.1.2/lib/navigo.js.map"
+              data-name="2.1.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="2.1.2">
+                2.1.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/krasimir/navigo/tree/2.1.1/lib/navigo.js.map"
+              data-name="2.1.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="2.1.1">
+                2.1.1
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="BtnGroup float-right">
+      <a href="/krasimir/navigo/find/master"
+            class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+            data-pjax
+            data-hotkey="t">
+        Find file
+      </a>
+      <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
+    </div>
+    <div class="breadcrumb js-zeroclipboard-target">
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/krasimir/navigo"><span>navigo</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/krasimir/navigo/tree/master/lib"><span>lib</span></a></span><span class="separator">/</span><strong class="final-path">navigo.js.map</strong>
+    </div>
+  </div>
+
+
+  <include-fragment class="commit-tease" src="/krasimir/navigo/contributors/master/lib/navigo.js.map">
+    <div>
+      Fetching contributors&hellip;
+    </div>
+
+    <div class="commit-tease-contributors">
+      <img alt="" class="loader-loading float-left" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" />
+      <span class="loader-error">Cannot retrieve contributors at this time</span>
+    </div>
+</include-fragment>
+
+  <div class="file">
+    <div class="file-header">
+  <div class="file-actions">
+
+    <div class="BtnGroup">
+      <a href="/krasimir/navigo/raw/master/lib/navigo.js.map" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/krasimir/navigo/blame/master/lib/navigo.js.map" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/krasimir/navigo/commits/master/lib/navigo.js.map" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+    </div>
+
+        <a class="btn-octicon tooltipped tooltipped-nw"
+           href="https://desktop.github.com"
+           aria-label="Open this file in GitHub Desktop"
+           data-ga-click="Repository, open with desktop, type:windows">
+            <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
+        </a>
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/krasimir/navigo/edit/master/lib/navigo.js.map" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="VShrbPje2Ss4yGPSEChaN//WKfh3GflxjQnFhx8ieZPdnnHvugQZuc/GVEqI7qHg8v4LN3UqJTZ2f8lg8FSqyQ==" /></div>
+          <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+            <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+          </button>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/krasimir/navigo/delete/master/lib/navigo.js.map" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="m6dw9Qt7xSekNbFwRwlM4NMKjSLa5GLzUqgu8BOz9LhYOmv+KLYOVcGrVwVxbcNRNzOA18OupKYaGZKtQ/u8YA==" /></div>
+          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and delete the file" data-disable-with>
+            <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+</form>  </div>
+
+  <div class="file-info">
+      1 lines (1 sloc)
+      <span class="file-info-divider"></span>
+    29.6 KB
+  </div>
+</div>
+
+    
+
+  <div itemprop="text" class="blob-wrapper data type-text">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">{&quot;version&quot;:3,&quot;sources&quot;:[&quot;webpack:///webpack/universalModuleDefinition&quot;,&quot;webpack:///webpack/bootstrap caada9cf0b603d917be4&quot;,&quot;webpack:///./src/index.js&quot;],&quot;names&quot;:[&quot;isPushStateAvailable&quot;,&quot;window&quot;,&quot;history&quot;,&quot;pushState&quot;,&quot;Navigo&quot;,&quot;r&quot;,&quot;useHash&quot;,&quot;hash&quot;,&quot;root&quot;,&quot;_routes&quot;,&quot;_useHash&quot;,&quot;_hash&quot;,&quot;_paused&quot;,&quot;_destroyed&quot;,&quot;_lastRouteResolved&quot;,&quot;_notFoundHandler&quot;,&quot;_defaultHandler&quot;,&quot;_usePushState&quot;,&quot;_onLocationChange&quot;,&quot;bind&quot;,&quot;_genericHooks&quot;,&quot;_historyAPIUpdateMethod&quot;,&quot;replace&quot;,&quot;_cLoc&quot;,&quot;split&quot;,&quot;_listen&quot;,&quot;updatePageLinks&quot;,&quot;clean&quot;,&quot;s&quot;,&quot;RegExp&quot;,&quot;regExpResultToParams&quot;,&quot;match&quot;,&quot;names&quot;,&quot;length&quot;,&quot;slice&quot;,&quot;reduce&quot;,&quot;params&quot;,&quot;value&quot;,&quot;index&quot;,&quot;decodeURIComponent&quot;,&quot;replaceDynamicURLParts&quot;,&quot;route&quot;,&quot;paramNames&quot;,&quot;regexp&quot;,&quot;PARAMETER_REGEXP&quot;,&quot;full&quot;,&quot;dots&quot;,&quot;name&quot;,&quot;push&quot;,&quot;REPLACE_VARIABLE_REGEXP&quot;,&quot;WILDCARD_REGEXP&quot;,&quot;REPLACE_WILDCARD&quot;,&quot;FOLLOWED_BY_SLASH_REGEXP&quot;,&quot;MATCH_REGEXP_FLAGS&quot;,&quot;getUrlDepth&quot;,&quot;url&quot;,&quot;compareUrlDepth&quot;,&quot;urlA&quot;,&quot;urlB&quot;,&quot;findMatchedRoutes&quot;,&quot;routes&quot;,&quot;map&quot;,&quot;filter&quot;,&quot;m&quot;,&quot;matched&quot;,&quot;fallbackURL&quot;,&quot;result&quot;,&quot;isHashChangeAPIAvailable&quot;,&quot;extractGETParameters&quot;,&quot;join&quot;,&quot;getOnlyURL&quot;,&quot;onlyURL&quot;,&quot;manageHooks&quot;,&quot;handler&quot;,&quot;hooks&quot;,&quot;before&quot;,&quot;shouldRoute&quot;,&quot;after&quot;,&quot;isHashedRoot&quot;,&quot;prototype&quot;,&quot;helpers&quot;,&quot;navigate&quot;,&quot;path&quot;,&quot;absolute&quot;,&quot;to&quot;,&quot;_getRoot&quot;,&quot;resolve&quot;,&quot;location&quot;,&quot;href&quot;,&quot;on&quot;,&quot;args&quot;,&quot;func&quot;,&quot;uses&quot;,&quot;_add&quot;,&quot;orderedRoutes&quot;,&quot;Object&quot;,&quot;keys&quot;,&quot;sort&quot;,&quot;forEach&quot;,&quot;off&quot;,&quot;notFound&quot;,&quot;current&quot;,&quot;GETParameters&quot;,&quot;query&quot;,&quot;already&quot;,&quot;_callLeave&quot;,&quot;destroy&quot;,&quot;clearTimeout&quot;,&quot;_listeningInterval&quot;,&quot;removeEventListener&quot;,&quot;self&quot;,&quot;document&quot;,&quot;_findLinks&quot;,&quot;link&quot;,&quot;hasListenerAttached&quot;,&quot;addEventListener&quot;,&quot;e&quot;,&quot;getLinkPath&quot;,&quot;preventDefault&quot;,&quot;generate&quot;,&quot;data&quot;,&quot;key&quot;,&quot;toString&quot;,&quot;pause&quot;,&quot;status&quot;,&quot;resume&quot;,&quot;historyAPIUpdateMethod&quot;,&quot;disableIfAPINotAvailable&quot;,&quot;lastRouteResolved&quot;,&quot;pathname&quot;,&quot;getAttribute&quot;,&quot;encodeURI&quot;,&quot;as&quot;,&quot;cached&quot;,&quot;check&quot;,&quot;setTimeout&quot;,&quot;__NAVIGO_WINDOW_LOCATION_MOCK__&quot;,&quot;call&quot;,&quot;querySelectorAll&quot;,&quot;leave&quot;],&quot;mappings&quot;:&quot;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&quot;,&quot;file&quot;:&quot;navigo.js&quot;,&quot;sourcesContent&quot;:[&quot;(function webpackUniversalModuleDefinition(root, factory) {\n\tif(typeof exports === &#39;object&#39; &amp;&amp; typeof module === &#39;object&#39;)\n\t\tmodule.exports = factory();\n\telse if(typeof define === &#39;function&#39; &amp;&amp; define.amd)\n\t\tdefine(\&quot;Navigo\&quot;, [], factory);\n\telse if(typeof exports === &#39;object&#39;)\n\t\texports[\&quot;Navigo\&quot;] = factory();\n\telse\n\t\troot[\&quot;Navigo\&quot;] = factory();\n})(this, function() {\nreturn \n\n\n/** WEBPACK FOOTER **\n ** webpack/universalModuleDefinition\n **/&quot;,&quot; \t// The module cache\n \tvar installedModules = {};\n\n \t// The require function\n \tfunction __webpack_require__(moduleId) {\n\n \t\t// Check if module is in cache\n \t\tif(installedModules[moduleId])\n \t\t\treturn installedModules[moduleId].exports;\n\n \t\t// Create a new module (and put it into the cache)\n \t\tvar module = installedModules[moduleId] = {\n \t\t\texports: {},\n \t\t\tid: moduleId,\n \t\t\tloaded: false\n \t\t};\n\n \t\t// Execute the module function\n \t\tmodules[moduleId].call(module.exports, module, module.exports, __webpack_require__);\n\n \t\t// Flag the module as loaded\n \t\tmodule.loaded = true;\n\n \t\t// Return the exports of the module\n \t\treturn module.exports;\n \t}\n\n\n \t// expose the modules object (__webpack_modules__)\n \t__webpack_require__.m = modules;\n\n \t// expose the module cache\n \t__webpack_require__.c = installedModules;\n\n \t// __webpack_public_path__\n \t__webpack_require__.p = \&quot;\&quot;;\n\n \t// Load entry module and return exports\n \treturn __webpack_require__(0);\n\n\n\n/** WEBPACK FOOTER **\n ** webpack/bootstrap caada9cf0b603d917be4\n **/&quot;,&quot;function isPushStateAvailable() {\n  return !!(\n    typeof window !== &#39;undefined&#39; &amp;&amp;\n    window.history &amp;&amp;\n    window.history.pushState\n  );\n}\n\nfunction Navigo(r, useHash, hash) {\n  this.root = null;\n  this._routes = [];\n  this._useHash = useHash;\n  this._hash = typeof hash === &#39;undefined&#39; ? &#39;#&#39; : hash;\n  this._paused = false;\n  this._destroyed = false;\n  this._lastRouteResolved = null;\n  this._notFoundHandler = null;\n  this._defaultHandler = null;\n  this._usePushState = !useHash &amp;&amp; isPushStateAvailable();\n  this._onLocationChange = this._onLocationChange.bind(this);\n  this._genericHooks = null;\n  this._historyAPIUpdateMethod = &#39;pushState&#39;;\n\n  if (r) {\n    this.root = useHash ? r.replace(/\\/$/, &#39;/&#39; + this._hash) : r.replace(/\\/$/, &#39;&#39;);\n  } else if (useHash) {\n    this.root = this._cLoc().split(this._hash)[0].replace(/\\/$/, &#39;/&#39; + this._hash);\n  }\n\n  this._listen();\n  this.updatePageLinks();\n}\n\nfunction clean(s) {\n  if (s instanceof RegExp) return s;\n  return s.replace(/\\/+$/, &#39;&#39;).replace(/^\\/+/, &#39;^/&#39;);\n}\n\nfunction regExpResultToParams(match, names) {\n  if (names.length === 0) return null;\n  if (!match) return null;\n  return match\n    .slice(1, match.length)\n    .reduce((params, value, index) =&gt; {\n      if (params === null) params = {};\n      params[names[index]] = decodeURIComponent(value);\n      return params;\n    }, null);\n}\n\nfunction replaceDynamicURLParts(route) {\n  var paramNames = [], regexp;\n\n  if (route instanceof RegExp) {\n    regexp = route;\n  } else {\n    regexp = new RegExp(\n      route.replace(Navigo.PARAMETER_REGEXP, function (full, dots, name) {\n        paramNames.push(name);\n        return Navigo.REPLACE_VARIABLE_REGEXP;\n      })\n      .replace(Navigo.WILDCARD_REGEXP, Navigo.REPLACE_WILDCARD) + Navigo.FOLLOWED_BY_SLASH_REGEXP\n    , Navigo.MATCH_REGEXP_FLAGS);\n  }\n  return { regexp, paramNames };\n}\n\nfunction getUrlDepth(url) {\n  return url.replace(/\\/$/, &#39;&#39;).split(&#39;/&#39;).length;\n}\n\nfunction compareUrlDepth(urlA, urlB) {\n  return getUrlDepth(urlB) - getUrlDepth(urlA);\n}\n\nfunction findMatchedRoutes(url, routes = []) {\n  return routes\n    .map(route =&gt; {\n      var { regexp, paramNames } = replaceDynamicURLParts(clean(route.route));\n      var match = url.replace(/^\\/+/, &#39;/&#39;).match(regexp);\n      var params = regExpResultToParams(match, paramNames);\n\n      return match ? { match, route, params } : false;\n    })\n    .filter(m =&gt; m);\n}\n\nfunction match(url, routes) {\n  return findMatchedRoutes(url, routes)[0] || false;\n}\n\nfunction root(url, routes) {\n  var matched = routes.map(\n    route =&gt; route.route === &#39;&#39; || route.route === &#39;*&#39; ? url : url.split(new RegExp(route.route + &#39;($|\\/)&#39;))[0]\n  );\n  var fallbackURL = clean(url);\n\n  if (matched.length &gt; 1) {\n    return matched.reduce((result, url) =&gt; {\n      if (result.length &gt; url.length) result = url;\n      return result;\n    }, matched[0]);\n  } else if (matched.length === 1) {\n    return matched[0];\n  }\n  return fallbackURL;\n}\n\nfunction isHashChangeAPIAvailable() {\n  return !!(\n    typeof window !== &#39;undefined&#39; &amp;&amp;\n    &#39;onhashchange&#39; in window\n  );\n}\n\nfunction extractGETParameters(url) {\n  return url.split(/\\?(.*)?$/).slice(1).join(&#39;&#39;);\n}\n\nfunction getOnlyURL(url, useHash, hash) {\n  var onlyURL = url, split;\n\n  if (typeof hash === &#39;undefined&#39;) {\n    // To preserve BC\n    hash = &#39;#&#39;;\n  }\n\n  if (isPushStateAvailable() &amp;&amp; !useHash) {\n    onlyURL = url.split(/\\?(.*)?$/)[0].split(hash)[0];\n  } else {\n    split = url.split(hash);\n    onlyURL = split.length &gt; 1 ? split[1] : split[0];\n  }\n\n  return onlyURL;\n}\n\nfunction manageHooks(handler, hooks, params) {\n  if (hooks &amp;&amp; typeof hooks === &#39;object&#39;) {\n    if (hooks.before) {\n      hooks.before((shouldRoute = true) =&gt; {\n        if (!shouldRoute) return;\n        handler();\n        hooks.after &amp;&amp; hooks.after(params);\n      }, params);\n    } else if (hooks.after) {\n      handler();\n      hooks.after &amp;&amp; hooks.after(params);\n    }\n    return;\n  }\n  handler();\n};\n\nfunction isHashedRoot(url, useHash, hash) {\n  if (isPushStateAvailable() &amp;&amp; !useHash) {\n    return false;\n  }\n\n  if (!url.match(hash)) {\n    return false;\n  }\n\n  let split = url.split(hash);\n\n  if (split.length &lt; 2 || split[1] === &#39;&#39;) {\n    return true;\n  }\n\n  return false;\n};\n\nNavigo.prototype = {\n  helpers: {\n    match,\n    root,\n    clean,\n    getOnlyURL\n  },\n  navigate: function (path, absolute) {\n    var to;\n\n    path = path || &#39;&#39;;\n    if (this._usePushState) {\n      to = (!absolute ? this._getRoot() + &#39;/&#39; : &#39;&#39;) + path.replace(/^\\/+/, &#39;/&#39;);\n      to = to.replace(/([^:])(\\/{2,})/g, &#39;$1/&#39;);\n      history[this._historyAPIUpdateMethod]({}, &#39;&#39;, to);\n      this.resolve();\n    } else if (typeof window !== &#39;undefined&#39;) {\n      path = path.replace(new RegExp(&#39;^&#39; + this._hash), &#39;&#39;);\n      window.location.href =\n        window.location.href\n          .replace(/#$/, &#39;&#39;)\n          .replace(new RegExp(this._hash + &#39;.*$&#39;), &#39;&#39;) + this._hash + path;\n    }\n    return this;\n  },\n  on: function (...args) {\n    if (typeof args[0] === &#39;function&#39;) {\n      this._defaultHandler = { handler: args[0], hooks: args[1] };\n    } else if (args.length &gt;= 2) {\n      if (args[0] === &#39;/&#39;) {\n        let func = args[1];\n\n        if (typeof args[1] === &#39;object&#39;) {\n          func = args[1].uses;\n        }\n\n        this._defaultHandler = { handler: func, hooks: args[2] };\n      } else {\n        this._add(args[0], args[1], args[2]);\n      }\n    } else if (typeof args[0] === &#39;object&#39;) {\n      let orderedRoutes = Object.keys(args[0]).sort(compareUrlDepth);\n\n      orderedRoutes.forEach(route =&gt; {\n        this.on(route, args[0][route]);\n      });\n    }\n    return this;\n  },\n  off: function (handler) {\n    if (this._defaultHandler !== null &amp;&amp; handler === this._defaultHandler.handler) {\n      this._defaultHandler = null;\n    } else if (this._notFoundHandler !== null &amp;&amp; handler === this._notFoundHandler.handler) {\n      this._notFoundHandler = null;\n    }\n    this._routes = this._routes.reduce((result, r) =&gt; {\n      if (r.handler !== handler) result.push(r);\n      return result;\n    }, []);\n    return this;\n  },\n  notFound: function (handler, hooks) {\n    this._notFoundHandler = { handler, hooks: hooks };\n    return this;\n  },\n  resolve: function (current) {\n    var handler, m;\n    var url = (current || this._cLoc()).replace(this._getRoot(), &#39;&#39;);\n\n    if (this._useHash) {\n      url = url.replace(new RegExp(&#39;^\\/&#39; + this._hash), &#39;/&#39;);\n    }\n\n    let GETParameters = extractGETParameters(current || this._cLoc());\n    let onlyURL = getOnlyURL(url, this._useHash, this._hash);\n\n    if (this._paused) return false;\n\n    if (\n        this._lastRouteResolved &amp;&amp;\n        onlyURL === this._lastRouteResolved.url &amp;&amp;\n        GETParameters === this._lastRouteResolved.query\n    ) {\n      if (this._lastRouteResolved.hooks &amp;&amp; this._lastRouteResolved.hooks.already) {\n        this._lastRouteResolved.hooks.already(this._lastRouteResolved.params);\n      }\n      return false;\n    }\n\n    m = match(onlyURL, this._routes);\n\n    if (m) {\n      this._callLeave();\n      this._lastRouteResolved = {\n        url: onlyURL,\n        query: GETParameters,\n        hooks: m.route.hooks,\n        params: m.params,\n        name: m.route.name\n      };\n      handler = m.route.handler;\n      manageHooks(() =&gt; {\n        manageHooks(() =&gt; {\n          m.route.route instanceof RegExp ?\n            handler(...(m.match.slice(1, m.match.length))) :\n            handler(m.params, GETParameters);\n        }, m.route.hooks, m.params, this._genericHooks);\n      }, this._genericHooks, m.params);\n      return m;\n    } else if (this._defaultHandler &amp;&amp; (\n        onlyURL === &#39;&#39; ||\n        onlyURL === &#39;/&#39; ||\n        onlyURL === this._hash ||\n        isHashedRoot(onlyURL, this._useHash, this._hash)\n    )) {\n      manageHooks(() =&gt; {\n        manageHooks(() =&gt; {\n          this._callLeave();\n          this._lastRouteResolved = { url: onlyURL, query: GETParameters, hooks: this._defaultHandler.hooks };\n          this._defaultHandler.handler(GETParameters);\n        }, this._defaultHandler.hooks);\n      }, this._genericHooks);\n      return true;\n    } else if (this._notFoundHandler) {\n      manageHooks(() =&gt; {\n        manageHooks(() =&gt; {\n          this._callLeave();\n          this._lastRouteResolved = { url: onlyURL, query: GETParameters, hooks: this._notFoundHandler.hooks };\n          this._notFoundHandler.handler(GETParameters);\n        }, this._notFoundHandler.hooks);\n      }, this._genericHooks);\n    }\n    return false;\n  },\n  destroy: function () {\n    this._routes = [];\n    this._destroyed = true;\n    clearTimeout(this._listeningInterval);\n    if (typeof window !== &#39;undefined&#39;) {\n      window.removeEventListener(&#39;popstate&#39;, this._onLocationChange);\n      window.removeEventListener(&#39;hashchange&#39;, this._onLocationChange);\n    }\n  },\n  updatePageLinks: function () {\n    var self = this;\n\n    if (typeof document === &#39;undefined&#39;) return;\n\n    this._findLinks().forEach(link =&gt; {\n      if (!link.hasListenerAttached) {\n        link.addEventListener(&#39;click&#39;, function (e) {\n          var location = self.getLinkPath(link);\n\n          if (!self._destroyed) {\n            e.preventDefault();\n            self.navigate(location.replace(/\\/+$/, &#39;&#39;).replace(/^\\/+/, &#39;/&#39;));\n          }\n        });\n        link.hasListenerAttached = true;\n      }\n    });\n  },\n  generate: function (name, data = {}) {\n    var result = this._routes.reduce((result, route) =&gt; {\n      var key;\n\n      if (route.name === name) {\n        result = route.route;\n        for (key in data) {\n          result = result.toString().replace(&#39;:&#39; + key, data[key]);\n        }\n      }\n      return result;\n    }, &#39;&#39;);\n\n    return this._useHash ? this._hash + result : result;\n  },\n  link: function (path) {\n    return this._getRoot() + path;\n  },\n  pause: function (status = true) {\n    this._paused = status;\n    if (status) {\n      this._historyAPIUpdateMethod = &#39;replaceState&#39;;\n    } else {\n      this._historyAPIUpdateMethod = &#39;pushState&#39;;\n    }\n  },\n  resume: function () {\n    this.pause(false);\n  },\n  historyAPIUpdateMethod: function (value) {\n    if (typeof value === &#39;undefined&#39;) return this._historyAPIUpdateMethod;\n    this._historyAPIUpdateMethod = value;\n    return value;\n  },\n  disableIfAPINotAvailable: function () {\n    if (!isPushStateAvailable()) {\n      this.destroy();\n    }\n  },\n  lastRouteResolved() {\n    return this._lastRouteResolved;\n  },\n  getLinkPath(link) {\n    return link.pathname || link.getAttribute(&#39;href&#39;);\n  },\n  hooks(hooks) {\n    this._genericHooks = hooks;\n  },\n  _add: function (route, handler = null, hooks = null) {\n    if (typeof route === &#39;string&#39;) {\n      route = encodeURI(route);\n    }\n    if (typeof handler === &#39;object&#39;) {\n      this._routes.push({\n        route,\n        handler: handler.uses,\n        name: handler.as,\n        hooks: hooks || handler.hooks\n      });\n    } else {\n      this._routes.push({ route, handler, hooks: hooks });\n    }\n    return this._add;\n  },\n  _getRoot: function () {\n    if (this.root !== null) return this.root;\n    this.root = root(this._cLoc().split(&#39;?&#39;)[0], this._routes);\n    return this.root;\n  },\n  _listen: function () {\n    if (this._usePushState) {\n      window.addEventListener(&#39;popstate&#39;, this._onLocationChange);\n    } else if (isHashChangeAPIAvailable()) {\n      window.addEventListener(&#39;hashchange&#39;, this._onLocationChange);\n    } else {\n      let cached = this._cLoc(), current, check;\n\n      check = () =&gt; {\n        current = this._cLoc();\n        if (cached !== current) {\n          cached = current;\n          this.resolve();\n        }\n        this._listeningInterval = setTimeout(check, 200);\n      };\n      check();\n    }\n  },\n  _cLoc: function () {\n    if (typeof window !== &#39;undefined&#39;) {\n      if (typeof window.__NAVIGO_WINDOW_LOCATION_MOCK__ !== &#39;undefined&#39;) {\n        return window.__NAVIGO_WINDOW_LOCATION_MOCK__;\n      }\n      return clean(window.location.href);\n    }\n    return &#39;&#39;;\n  },\n  _findLinks: function () {\n    return [].slice.call(document.querySelectorAll(&#39;[data-navigo]&#39;));\n  },\n  _onLocationChange: function () {\n    this.resolve();\n  },\n  _callLeave() {\n    if (this._lastRouteResolved &amp;&amp; this._lastRouteResolved.hooks &amp;&amp; this._lastRouteResolved.hooks.leave) {\n      this._lastRouteResolved.hooks.leave();\n    }\n  }\n};\n\nNavigo.PARAMETER_REGEXP = /([:*])(\\w+)/g;\nNavigo.WILDCARD_REGEXP = /\\*/g;\nNavigo.REPLACE_VARIABLE_REGEXP = &#39;([^\\/]+)&#39;;\nNavigo.REPLACE_WILDCARD = &#39;(?:.*)&#39;;\nNavigo.FOLLOWED_BY_SLASH_REGEXP = &#39;(?:\\/$|$)&#39;;\nNavigo.MATCH_REGEXP_FLAGS = &#39;&#39;;\n\nexport default Navigo;\n\n\n\n/** WEBPACK FOOTER **\n ** ./src/index.js\n **/&quot;],&quot;sourceRoot&quot;:&quot;&quot;}</td>
+      </tr>
+</table>
+
+  <div class="BlobToolbar position-absolute js-file-line-actions dropdown js-menu-container js-select-menu d-none" aria-hidden="true">
+    <button class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1 dropdown-toggle js-menu-target" id="js-file-line-action-button" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Inline file action toolbar" aria-controls="inline-file-actions">
+      <svg aria-hidden="true" class="octicon" height="16" version="1.1" viewBox="0 0 13 4" width="14">
+        <g stroke="none" stroke-width="1" fill-rule="evenodd">
+            <g transform="translate(-1.000000, -6.000000)">
+                <path d="M2.5,9.5 C1.67157288,9.5 1,8.82842712 1,8 C1,7.17157288 1.67157288,6.5 2.5,6.5 C3.32842712,6.5 4,7.17157288 4,8 C4,8.82842712 3.32842712,9.5 2.5,9.5 Z M7.5,9.5 C6.67157288,9.5 6,8.82842712 6,8 C6,7.17157288 6.67157288,6.5 7.5,6.5 C8.32842712,6.5 9,7.17157288 9,8 C9,8.82842712 8.32842712,9.5 7.5,9.5 Z M12.5,9.5 C11.6715729,9.5 11,8.82842712 11,8 C11,7.17157288 11.6715729,6.5 12.5,6.5 C13.3284271,6.5 14,7.17157288 14,8 C14,8.82842712 13.3284271,9.5 12.5,9.5 Z"></path>
+            </g>
+        </g>
+      </svg>
+    </button>
+    <div class="dropdown-menu-content js-menu-content" id="inline-file-actions">
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
+        <li><a class="js-zeroclipboard dropdown-item" style="cursor:pointer;" id="js-copy-lines" data-original-text="Copy lines">Copy lines</a></li>
+        <li><a class="js-zeroclipboard dropdown-item" id= "js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</a></li>
+        <li><a href="/krasimir/navigo/blame/702a72051671f3de1b3031d2debd3e2cf1134d3e/lib/navigo.js.map" class="dropdown-item js-update-url-with-hash" id="js-view-git-blame">View git blame</a></li>
+          <li><a href="/krasimir/navigo/issues/new" class="dropdown-item" id="js-new-issue">Open new issue</a></li>
+      </ul>
+    </div>
+  </div>
+
+  </div>
+
+  </div>
+
+  <button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
+  <div id="jump-to-line" style="display:none">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+      <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+      <button type="submit" class="btn">Go</button>
+</form>  </div>
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2017 <span title="0.18230s from unicorn-3078561566-b6lgf">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="footer-octicon" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+    <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha256-sJHzBZ88v25J8LzXrcs+t58ejvuaV9TTXzzsRTXyuAo=" src="https://assets-cdn.github.com/assets/frameworks-b091f3059f3cbf6e49f0bcd7adcb3eb79f1e8efb9a57d4d35f3cec4535f2b80a.js"></script>
+    
+    <script async="async" crossorigin="anonymous" integrity="sha256-vbtlYBmNEDCMA95Gm7q8WUXy2Ic/anhSHofOBTsbWF4=" src="https://assets-cdn.github.com/assets/github-bdbb6560198d10308c03de469bbabc5945f2d8873f6a78521e87ce053b1b585e.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>
+
