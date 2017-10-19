@@ -50,11 +50,11 @@
       event.preventDefault()
 
       var riotTag = this
-      var formElement = event.target
+      var formElement = new FormData(event.target)
       fetch(window.getAPIUrl('/signup/'), {
         method: 'POST',
         credentials: 'include',
-        body: new FormData(formElement)
+        body: formElement
       }).then(function(response) {
         if (response.status==200){
           window.go2page('/')
